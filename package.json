@@ -1,0 +1,34 @@
+{
+  "name": "custom-fail-sound",
+  "displayName": "Custom Fail Sound",
+  "description": "Plays a sound when a terminal shell execution ends with a non-zero exit code.",
+  "version": "0.1.0",
+  "publisher": "antigravity",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.93.0",
+    "@types/node": "20.x",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
+}
