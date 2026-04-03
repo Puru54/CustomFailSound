@@ -70,3 +70,9 @@ To use your own custom sound instead of the default:
    - Type "Reload Window" and select it
 
 4. Test: Run a command that fails and you should hear your custom sound!
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
+
+Third-party libraries (for example `play-sound`) have their own licenses in `node_modules` after you run `npm install`.

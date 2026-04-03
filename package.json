@@ -4,6 +4,15 @@
   "description": "Plays a sound when a terminal shell execution ends with a non-zero exit code.",
   "version": "0.1.0",
   "publisher": "antigravity",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puru54/CustomFailSound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Puru54/CustomFailSound/issues"
+  },
+  "homepage": "https://github.com/Puru54/CustomFailSound#readme",
   "engines": {
     "vscode": "^1.93.0"
   },
