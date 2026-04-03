@@ -75,4 +75,3 @@ To use your own custom sound instead of the default:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
 
-Third-party libraries (for example `play-sound`) have their own licenses in `node_modules` after you run `npm install`.
